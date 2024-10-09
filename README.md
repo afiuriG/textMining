@@ -1,7 +1,8 @@
-# RL en State Trakers.
+# RL en State Trakers
 
 
 # Resumen
+State trackers son.....
 
 
 # Hipótesis de trabajo
