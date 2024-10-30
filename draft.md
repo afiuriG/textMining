@@ -11,7 +11,6 @@ Para profundizar en sus características ver [datase seleccionado](https://githu
 
 # Model del problema
 
-# Arquitectura 
 
 # Métodos
 
