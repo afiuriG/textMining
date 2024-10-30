@@ -6,7 +6,7 @@ En lo que sigue se describen cada una de las componentes del trabajo y se presen
 
 
 # Dataset
-Esta componente describe el dataset seleccionado para trabajar, el cual establece también el problema a resolver. Para profundizar en sus caracteristicas ver [datase seleccionado]{https://github.com/afiuriG/textMining/tree/main}
+Esta componente describe el dataset seleccionado para trabajar, el cual establece también el problema a resolver. Para profundizar en sus caracteristicas ver [datase seleccionado](https://github.com/afiuriG/textMining/tree/main)
 
 
 
