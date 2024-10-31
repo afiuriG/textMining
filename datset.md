@@ -59,3 +59,14 @@ dialogue state:
   "train-leaveat"
 }
 ```
+
+El estado que aparece como rótulo en cada turno viene especificado por:
+```
+{
+  "state":{
+    "active_intent": String. User intent of the current turn.
+    "requested_slots": List of string representing the slots, the values of which are being requested by the user.
+    "slot_values": Dict of state values. The key is slot name in string. The value is a list of values.
+  }
+}
+```
