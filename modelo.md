@@ -18,7 +18,7 @@ $$
 \end{cases}
 $$
 
-
+Con $\rho(s_{1i},s_{2i})$ bla bla bla.....
 
 
 Esta noción de cercanía necesitará validarse con los experimentos realizados, quizás se necesite otro criterio más complejo.
