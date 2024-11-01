@@ -10,7 +10,7 @@ Esta componente describe el dataset seleccionado para trabajar, el cual establec
 Para profundizar en sus características ver [datase seleccionado](https://github.com/afiuriG/textMining/blob/main/datset.md)
 
 # El problema
-El primer paso que daré es el de tratar de identificar el problema con presición. La fig 
+El primer en el establecimiento del problema es entender el funcionamiento de un SDS. En la siguiente figura vemos un esquema muy simplificdo de las componenetes sobre las que haremos foco en un SDS.  
 <img src="sds.png" width="450" />
 
 # Métodos
