@@ -1,1 +1,6 @@
-Esta es la parte más...
+En este documento se define con presición las entidades involucradas.
+
+## Estado del environment
+
+El estado del environment es una representación del estado del problema en cada episodio del aprendizaje del agente, estará definido como una tupla $\xi = (t_1,...,t_n,s_1,...,s_m,I)$ donde $\vec{t}$ es el vector que representa al texto del turno post procesado (i.e. la salida de la componente PreProc que aparece en los esquemas mostrados), $\vec{s}$ representa los slots del estado del diálogo actual e $I$ es su intención según está definido el estado en el dataset (como se explicó en [dataset](https://github.com/afiuriG/textMining/blob/main/datset.md)). Los tamaños $n$ y $m$ en principio son fijos, $n$ tendrá el valor que se considere adecuado, surgido de la experimentación con las diferentes representaciones postprocesadas, de los turnos, con las que se puedan probar, se manejará com un hiperparámetro del proceso de aprendizaje. Por otra parte $m$ si tiene tamaño fijo y conocido a ser $35$ que es la cantidad de slots definidos en el dataset. Se tomará la posición del vector $\vec{s}_i$ como el $i ésimo$ elemento que aparece listado en la definición del dataset, comenzando en 0, o sea que por ejemplo $s_3$ corresponde a "bus-day".  
+
