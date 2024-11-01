@@ -13,7 +13,9 @@ Para profundizar en sus características ver [datase seleccionado](https://githu
 El primer paso en el establecimiento del problema es entender el funcionamiento de un SDS. En la siguiente figura vemos un esquema muy simplificdo de las componenetes sobre las que haremos foco.  
 <img src="sds_1.png" width="900" />
 
-El dataset seleccionado nos provee la interacción entre usuario y máquina (las flechas rojas del esquema anterior en forma de diálogo) pero rotulado con los estados tras cada turno de usuario (la flecha verde). La idea de este trabajo es valernos de dichos datos para construir un state tracker que aprenda de los datos suministrados pero con técnicas de RL (usualmente se usan grandes redes profundas, mecanismos de atención, etc).
+El dataset seleccionado nos provee la interacción entre usuario y máquina (las flechas rojas del esquema anterior en forma de diálogo) pero rotulado con los estados tras cada turno de usuario (la flecha verde). La idea de este trabajo es valernos de dichos datos para construir un state tracker que aprenda de los datos suministrados pero con técnicas de RL (usualmente se usan grandes redes profundas, mecanismos de atención, etc). En este sentido se hace necesario pensar el problema desde la óptica de RL. Será imprescindible entonces identificar la arquitectura desde este punto de vista, conceptos tales como environment, estado, reward tienen que ser claramente establecidos. La siguiente figura apunta a hechar luz en esa dirección,  
+
+
 <img src="rl_1.png" width="1100" />
 
 
