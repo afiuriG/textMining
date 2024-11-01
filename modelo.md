@@ -13,8 +13,8 @@ viene dada por
 $$
 \varphi(s_{1i},s_{2i}) = \begin{cases}
     0 & s_{1i}=s_{2i}=\text{default value} \\
-    1/d & \text{si el } iésimo \text{slot es categórico } y s_{1i}=s_{2i}\ne\text{default value} \\
-    1/d*\rho(s_{1i},s_{2i}) & \text{si el } iésimo \text{slot no es categórico } y s_{1i}=s_{2i}\ne\text{default value}
+    1/d & \text{si el } iésimo \text{ slot es categórico y }  s_{1i}=s_{2i}\ne\text{default value} \\
+    1/d*\rho(s_{1i},s_{2i}) & \text{si el } iésimo \text{ slot no es categórico y }  s_{1i}=s_{2i}\ne\text{default value}
 \end{cases}
 $$
 
