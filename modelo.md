@@ -18,10 +18,8 @@ $$
 \end{cases}
 $$
 
-Con $\rho(s_{1i},s_{2i})$ bla bla bla.....
+Donde $\rho(s_{1i},s_{2i})$ es una forma de caracterizar la cercanía de los slots no categóricos que dependerád e la implementación elejida para el preprocesamiento de los textos de los turnos por lo que su implementación se dejará para el momento de la implementación. Esta noción de cercanía necesitará validarse con los experimentos realizados, quizás se necesite otro criterio más complejo.
 
-
-Esta noción de cercanía necesitará validarse con los experimentos realizados, quizás se necesite otro criterio más complejo.
 ## Acciones
 
 
