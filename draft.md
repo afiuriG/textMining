@@ -12,7 +12,7 @@ Para profundizar en sus características ver [datase seleccionado](https://githu
 # El problema
 
 Antes de comenzar con definiciones de la solución es necesario describir con mayor presición el problema, se parte de un dataset de diálogos rotulados con los estados del diálogo en cada turno y se pretende construir una piesa de software que ante el texto correspondiente a un turno del usuario genere el estado del diálogo para ese momento. Además se pretende encontrar una solución con RL así que el environment será una caja negra que ofrece como descriptor de estado una mezcla entre el estado del diálogo y la entrada del turno, un reward será calculado a partir de calcular el acercamiento del estado de diálogo calculado y el rotulado y por último habrán acciones que cambiarán (o no) el estado del diálogo, para ver más detalles de la definición del problema ver ["el problema"](https://github.com/afiuriG/textMining/blob/main/problem.md)
-
+Una vez que se definieron todo estos conceptos recién podemos hablar del mecanismo de aprendizaje. 
 
 # El modelo
 Esta es una parte crucial del proyecto, es momento de definir con presición cual es el modelo que se usará y darle forma precisa a las entidades que fueron apareciendo. Por un lado hay que definir la descripción del estado del environment, pero este a su vez está definido como una composición del turno corriente y del estado del diálogo. También se necesita detalles sobre el reward y las acciones.
