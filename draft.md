@@ -15,6 +15,12 @@ Antes de comenzar con definiciones de la solución es necesario describir con ma
 
 
 # El modelo
+Esta es una parte crucial del proyecto, es momento de definir con presición cual es el modelo que se usará y darle forma precisa a las entidades que fueron apareciendo. Por un lado hay que definir la descripción del estado del environment, pero este a su vez está definido como una composición del turno corriente y del estado del diálogo. También se necesita detalles sobre el reward y las acciones.
+
+["el modelo"](https://github.com/afiuriG/textMining/blob/main/modelo.md)
+
+
+
 
 # Implementación
 
