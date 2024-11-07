@@ -19,17 +19,38 @@ Antes de comenzar con definiciones de la solución es necesario describir con ma
 Esta es una parte crucial del proyecto, es momento de definir con presición cual es el modelo de aprendizaje que se usará y construir las entidades que fueron apareciendo. Por un lado hay que definir la descripción del estado del environment introducido informalmente antes, el cual a su vez está definido como una composición del turno corriente y del estado del diálogo. También se necesita detalles sobre el reward, el cual será alguna noción de cercanía entre el estado del diálogo calculado y el rotulado. Por último también hay que identificar las acciones que el agente puede hacer sobre el entono las cuales serán intuitivamente los cambios en los slots o la intensión asociados al diálogo. En ["el modelo"](https://github.com/afiuriG/textMining/blob/main/modelo.md) están los detalles de tales definiciones.
 
 ## Aprendizaje - RL Clásico
-Una vez que se definieron todos estos conceptos recién podemos hablar del mecanismo de aprendizaje. Como primera alternativa se presenta el Reinforcement Learning Clásico, donde con "clásico" se intenta contrastar con la propuesta del RL con inspiración biológica. Dada la combinación de estados y acciones del problema se descarta una solución tabular y se piensa directamente en Deep RL. En principio en esta prueba de factibilidad se elige la técnica de diferencia temporal dada la generalidad de situaciones en la que es aplicable, apostando que también lo sea para este problema.   
+Una vez que se definieron todos estos conceptos recién podemos hablar del mecanismo de aprendizaje. Como primera alternativa se presenta el Reinforcement Learning Clásico, donde con "clásico" se intenta contrastar con la propuesta del RL con inspiración biológica. En principio en esta prueba de factibilidad se elige la técnica de diferencia temporal profunda dada la generalidad de situaciones en la que es aplicable, apostando que también lo sea para este problema. Para mas detalles ver [DeepQN](https://github.com/afiuriG/textMining/blob/main/dqn.md)   
 
 ## Aprendizaje - RL con inspiración biológica.
-
+El RL con inspiración biológica es una propuesta propia en el que se modela el funcionamiento de una red neuronal artificial fuertemente orientada a aspectos biológicos tales como conexiones con diferentes comportamientos (inhibitorias, exitatorias, eléctricas), dinámica neuronal basada en comportamiento eléctrico de las neuronas y por tanto neuronas con estado interno, arquitectura neuronal motivada en circuitos biológicos, etc. Para mas detalles ver [Fnets](https://github.com/afiuriG/textMining/blob/main/fnets.md)
 
 
 
 # Implementación
+To be done...
 
 # Métricas y Benchmarks
+Para poder discutir el éxito o no del método es necesario primero definir que métricas serán tenidas en cuenta y luego buscar puntos de comparación con benchmarks en el estado del arte, en este sentido se usaran 2 fuentes de comparación a saber:
+[Dialogue State Tracking on Wizard-of-Oz Benchmarks](https://paperswithcode.com/sota/dialogue-state-tracking-on-wizard-of-oz) gestionado por [paperswithcode.com](https://paperswithcode.com/sota), en este benchmark se usa como métrica Joint Goal Accuracyh (ver usos y definición de [JGA](https://arxiv.org/pdf/2204.03375) para más detalles). Por otro lado [Paweł Budzianowski](https://github.com/budzianowski/multiwoz/blob/master/README.md) en el sitio en el que mantiene oficialmente el dataset de Multiwoz también ofrece su ranking de métricas basadas en la estandar JGA. Para más detalles acerca del análisis de resultados obtenidos ver ...  
+
 
 
 #  Referencias......
+- Steve Young, Milica Gasiˇ c, Simon Keizer, Franc¸ois Mairesse, Jost Schatzmann, Blaise Thomson, and
+Kai Yu. 2010. The hidden information state model: A practical framework for POMDP-based spoken dialogue management. Computer Speech and Language 24:150–174.
+- NBT as Baseline: https://arxiv.org/pdf/1606.03777v2
+- Multiwoz: https://arxiv.org/pdf/2007.12720
+- RL for data augmentation: https://arxiv.org/pdf/1908.07795
+- A state tracking benchmark: https://paperswithcode.com/sota/dialogue-state-tracking-on-wizard-of-oz
+- RL clásico: Sutton, R.S., Barto, A.G.: Reinforcement Learning: An Introduction., MIT Press., Cambridge., (1998)
+- RL con inspiración biológica: https://link.springer.com/chapter/10.1007/978-3-031-63616-5_5
+- Deep Qlearning: https://www.datacamp.com/es/tutorial/introduction-q-learning-beginner-tutorial
+- Deep Qlearning: https://huggingface.co/learn/deep-rl-course/unit3/deep-q-algorithm
+- JGA: Suvodip Dey, Ramamohan Kummara, Maunendra Sankar Desarkar. Towards Fair Evaluation of Dialogue State Tracking by Flexible Incorporation of Turn-level Performances: https://arxiv.org/pdf/2204.03375
+- 
+
+
+
+
+
  prueba de factibilidad?
