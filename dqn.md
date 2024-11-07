@@ -11,6 +11,7 @@ Q-learning simplemente guarda información en tablas pero esta aproximación fla
 # Q-learning profundo
 
 La idea detrás del Q-learning profundo es reemplazar la tabla de $Q$ por una red neuronal profunda que aproxime a $Q$, las siguientes imágenes muestran gráficamente la diferencia. 
+<img src="qlearning_1.png" width="900" />
 
 
 
