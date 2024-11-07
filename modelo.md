@@ -25,9 +25,9 @@ Las acciones son las que nos permiten influenciar el comportamiento del environm
 
 Las acciones son las que nos permiten influenciar el comportamiento del environment. En este problema se define "solamenete" una acción que es la que asigna un estado de diálogo al environment, se llama $set(\varepsilon)$ a la acción que asigna el estado $\varepsilon$ al environment. 
 
+## Tareas pendientes hasta la implementación:
+- [ ] validar cercania
+- [ ] validar acciones
+- [ ] validar preproceso
 
-validar cercania
-validar acciones
-Validar preproceso
 
-## Aprendizaje
