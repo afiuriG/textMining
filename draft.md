@@ -35,7 +35,7 @@ Una vez que se definieron todos estos conceptos recién podemos hablar del mecan
 
 ## Aprendizaje - RL con inspiración biológica.
  
-El RL con inspiración biológica es una propuesta propia en el que se modela el funcionamiento de una red neuronal artificial fuertemente orientada a aspectos biológicos tales como conexiones con diferentes comportamientos (inhibitorias, exitatorias, eléctricas), dinámica neuronal basada en comportamiento eléctrico de las neuronas y por tanto neuronas con estado interno, arquitectura neuronal motivada en circuitos biológicos, etc. Para mas detalles ver [Fnets](https://github.com/afiuriG/textMining/blob/main/fnets.md)
+El RL con inspiración biológica es una propuesta propia en la que se modela el funcionamiento de una red neuronal artificial fuertemente orientada a aspectos biológicos tales como conexiones con diferentes comportamientos (inhibitorias, exitatorias, eléctricas), dinámica neuronal basada en comportamiento eléctrico de las neuronas y por tanto neuronas con estado interno, arquitectura neuronal motivada en circuitos biológicos, etc. Para más detalles ver [Fnets](https://github.com/afiuriG/textMining/blob/main/fnets.md)
 
 
 
