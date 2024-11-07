@@ -8,10 +8,13 @@ $Q^{new}(s_t,a_t)=(1-\alpha) \cdot Q(s_t,a_t)+\alpha \cdot (r_t+\gamma \cdot {ma
 donde $r_t$ es la recompensa recibida al pasar del estado $s_t$ al estado $s_{t+1}$ y $0\ge\alpha\ge1$ es el índice de aprendizaje. Un episodio del algoritmo termina cuando el estado $s_{t+1}$ es un estado final o terminal. Aun así, Q-learning también puede aprender en tareas sin episodios. 
 Q-learning simplemente guarda información en tablas pero esta aproximación flaquea con números crecientes de acciones/estados así entonces es que se decide usar Q-learning profundo.
 
-# Q-learning profundo
+## Q-learning profundo
 
 La idea detrás del Q-learning profundo es reemplazar la tabla de $Q$ por una red neuronal profunda que aproxime a $Q$, las siguientes imágenes muestran gráficamente la diferencia. 
 <img src="qlearning_1.png" width="900" />
 
 En este trabajo no se usa ningún método tabular dada la explosión de estados por lo que directamente se implementará deep Q-Learning. La red profunda $Q_{net}$ que vaya a implementar la aproximación a $Q$ deberá tener las neuronas de entrada necesarias para el estado definido y como salida también la cantidad de neuronas igual a la cantidad de estados diferentes que tenga asociado el dominio con la máxima cantidad de slots. Seguramente será necesario algún preprocesamiento para los estados de entrada a $Q_{net}$ y también algun postprocesamiento para la salida, todos estos detalles serán definidos en momento de implementación.
 
+## Tareas pendientes hasta la implementación
+- [ ] validar preproceso
+- [ ] validar postproceso
