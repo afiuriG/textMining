@@ -7,7 +7,7 @@ El estado del environment es una representación del estado del problema en cada
 
 ## Recompensa
 La recompensa está definida en función de la cercanía de 2 estados de diálogos dados, donde la noción de cercanía en una propuesta inicial viene dada por las siguientes reglas:
-Si $\varepsilon_1=(s_{11},...,s_{1m},I,\omega)$ y $\varepsilon_2=(s_{21},...,s_{2m},I,\omega)$ son dos estados de diálogo con la misma intención en los mismos dominios, diremos que la cercanía $\delta$ entre $\varepsilon_1$ y $\varepsilon_2$ está dada por: $\delta(\varepsilon_1,\varepsilon_2)=\sum_{i=0}^{k}\varphi(s_{1i},s_{2i})$ donde $\vec{s}$ son los slots del dominio $\omega$ y si $d$ es la cantidad de slots que tiene ese dominio,  $\varphi(s_{1i},s_{2i})$
+Si $\varepsilon_1=(s_{11},...,s_{1m},I,\omega)$ y $\varepsilon_2=(s_{21},...,s_{2m},I,\omega)$ son dos estados de diálogo con la misma intención en los mismos dominios, diremos que la cercanía $\delta$ entre $\varepsilon_1$ y $\varepsilon_2$ está dada por: $\delta(\varepsilon_1,\varepsilon_2)=\sum_{i=0}^{d}\varphi(s_{1i},s_{2i})$ donde $\vec{s}$ son los slots del dominio $\omega$ y $d$ es la cantidad de slots que tiene ese dominio,  $\varphi(s_{1i},s_{2i})$
 viene dada por
 
 $$
